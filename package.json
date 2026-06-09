@@ -7,6 +7,8 @@
   "scripts": {
     "start": "npm run build",
     "build": "node ./eng/update-readme.mjs && node ./eng/generate-marketplace.mjs",
+    "attest": "node ./eng/generate-attestation.mjs",
+    "attest:verify": "node ./eng/verify-attestation.mjs",
     "contributors:add": "all-contributors add",
     "contributors:report": "node ./eng/contributor-report.mjs",
     "contributors:generate": "all-contributors generate",
